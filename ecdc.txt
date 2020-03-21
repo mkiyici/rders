@@ -18,4 +18,5 @@ GET(url, authenticate(":", ":", type="ntlm"), write_disk(tf <- tempfile(fileext 
 #read the Dataset sheet into “R”
 data <- read_excel(tf)
 
-
+# data isimli dataframe içerisine tüm veriler geliyor... Bundan sonrası hayal gücünüze kalmış durumda... 
+# derslerimizde buradan da örnekler yapacağız
