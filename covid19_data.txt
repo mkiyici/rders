@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/report/raw/rawReport.csv
+https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/countryReport/raw/rawReport.csv
