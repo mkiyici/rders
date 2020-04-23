@@ -1,0 +1,88 @@
+1. https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/countryReport/raw/rawReport.csv
+Adresinde bulunan veri setini yükleyiniz.
+
+---------------------------------------------------------------------------------------------------
+Veri Seti Hakkında Genel Bilgi;
+
+day -> Tarih
+countryCode -> Ülke Kodu ( 2 Haneli)
+countryName -> Ülke Adı ( Ingilizce)
+region -> Kıta bilgisi 
+lat ->  Latitude - Enlem Bilgisi 
+lon -> Longitude - Boylam Bilgisi 
+confirmed -> Vaka Sayısı - kümülatif toplamdır
+recovered -> İyileşen Hasta Sayısı - kümülatif toplamdır
+death -> Vefat Sayısı  - kümülatif toplamdır
+
+---------------------------------------------------------------------------------------------------
+
+
+2. Her bir ülke için 
+	A. Yeni Vaka Sayısını Hesaplayınız
+	B. Yeni İyileşen Sayısını Hesaplayınız
+	C. Yeni Ölüm Sayısını Hesapalayınız
+
+3. Her Bir Kıta için  
+	A. Kümülatif Vaka Sayısını Hesaplayınız
+	B. Kümülatif İyileşen Sayısını Hesaplayınız
+	C. Kümülatif Ölüm Sayısını Hesapalayınız
+
+
+
+4.  Ülkelerin nüfus bilgisini bul ve eşleştir (2019 son çeyrek (Q4) ya da 2020 ilk çeyrek (Q1) verisi istiyorum)
+5.  Kıta nüfuslarını hesapla
+
+6. Her bir ülke için 
+	A. Yeni Vaka / nüfus oranını hesaplayınız 
+	B. Yeni iyileşen / nüfus oranını hesaplayınız 
+	C. Yeni ölüm / nüfus oranını hesaplayınız 
+
+7. Her bir kıta için 
+	A. Yeni Vaka / nüfus oranını hesaplayınız 
+	B. Yeni iyileşen / nüfus oranını hesaplayınız 
+	C. Yeni ölüm / nüfus oranını hesaplayınız 
+
+8. Her bir ülke için 
+	A. Kümülatif Vaka / nüfus oranını hesaplayınız 
+	B. Kümülatif iyileşen / nüfus oranını hesaplayınız 
+	C. Kümülatif ölüm / nüfus oranını hesaplayınız 
+
+9. Her bir kıta için 
+	A. Kümülatif Vaka / nüfus oranını hesaplayınız 
+	B. Kümülatif iyileşen / nüfus oranını hesaplayınız 
+	C. Kümülatif ölüm / nüfus oranını hesaplayınız 
+
+10.  Kıtalar bazında 
+	A. Kümülatif Vaka sayılarını pasta grafik olarak gösteriniz 
+	B. Kümülatif iyileşen sayılarını pasta grafik olarak gösteriniz
+	C. Kümülatif ölüm sayılarını pasta grafik olarak gösteriniz
+
+11.  Aktif gün için en fazla hasta ölüm ve iyileşen raporlayan ülkeleri bul ( Not: Aktif gün için örneğin 25.4.2020 için 24.4.2020 verileri kullanılacaktır)
+
+12. Kıtalar içinde ( her bir kıta için ayrı) Aktif gün için en fazla hasta ölüm ve iyileşen raporlayan ülkeleri bul
+
+13. Kıtaların iyileşen sayılarını çizgi grafik olarak göster 
+14. Kıtaların hasta ve nüfus grafiklerini aynı grafik üstünde ayrı çizgi grafik olarak göster 
+15. En çok vakası olan 5 ülkenin hasta sayısının line graph olarak çiziniz 
+16. En çok ölümü olan 5 ülkenin ölüm sayısını line graph olarak çiziniz.
+17. Açıklanan yeni vakalar göz önüne alındığında en çok vaka açıklayan ilk 3 ülke toplam vakanın % kaçını açıklamıştır 
+18. Amerika kıtası için kıtada açıklanan ilk vakadan sonra yeni açıklanan vaka sayısını bar grafik ile toplam vaka sayısını ise çizgi grafik ile çiziniz.
+19. Asya kıtası için kıtada en az ölüm sayısının açıklandığı günü bulunuz 
+20. Veri seti içinde bulunan her bir ülke için;  iyileşen hasta sayısının vaka sayısını geçmesi durumunda bu tarihi raporlayınız
+21.  En yüksek ölüm / nüfus oranına sahip 10 ülkeyi listeleyiniz 
+
+
+NOT: Vize ve Final Ödevleri aynı dosya içinde verilmiştir
+
+
+Vize ödevinin teslim tarihi: 14.5.2020 
+Final ödevini teslim tarihi (Öğrenci işleri daire başkanlığı web sitesine final tarihleri aralığı olarak ilan edilen 1- 14 Haziran 2020 tarihleri aralığında kalan) 9.6.2020 olarak belirlenmiştir. ( Üniversitenin final tarihlerinde değişiklik yapması durumunda tarih güncellemesi yapılacaktır.
+
+
+Vize ödevi bölümünde 2,3,4,5,6,7,8,9 ve 10 soruların 
+Final Ödevi bölümünde ise 11,12,13,14,15,16,17,18,19,20 ve 21. Soruların 
+
+Cevapları her birisi ayrı bir R dosyası olarak kayıt edildikten sonra öğrenci numarası ve ismi ile zip dosyası olarak kayıt edilmelidir. 
+
+
+BAŞARILAR DİLERİM
