@@ -19,6 +19,9 @@
 
 
 df <- read.csv('https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/countryReport/raw/rawReport.csv')
+df$countryName = as.character(df$countryName)
+#Nüfus verisinde United States of America Geldiği için burada değiştirildi
+df$countryName[df$countryName == "United States"] <- "United States of America"
 # 
 ############################################################
 
